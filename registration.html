@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<center>
+<head>
+    <title>Event Registration Form</title>
+</head>
+<body>
+    <h2>Event Registration Form</h2>
+
+    <form action="#" method="post">
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+	
+	<label for="gender">Gender:</label><br>
+ 	<input type="radio" name="gender" value="Male" required> Male
+	<input type="radio" name="gender" value="Female"> Female
+	<input type="radio" name="gender" value="Other"> Other
+<br><br>
+
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <label for="event">Select Event:</label>
+        <select id="event" name="event" required>
+            <option value="">--Select--</option>
+            <option value="workshop">Workshop</option>
+            <option value="seminar">Seminar</option>
+            <option value="webinar">Webinar</option>
+        </select><br><br>
+
+	<label for="slot">Preferred Slot:</label><br>
+    	<select id="slot" name="slot">
+    	<option value="morning">Morning (10 AM - 1 PM)</option>
+  	<option value="evening">Evening (4 PM - 7 PM)</option>
+    	</select><br><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</center
+</html>
